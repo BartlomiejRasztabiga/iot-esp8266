@@ -62,7 +62,6 @@ void sendData() {
   Serial.print("Temperature: ");
   Serial.print(temperature);
   Serial.print(" *C ");
-  Serial.println();
 
   // Prepare a JSON payload string
   String payload = "{";
